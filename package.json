@@ -1,0 +1,22 @@
+{
+	"name": "gatsby-remark-jh-codepen-block",
+	"version": "0.1.0",
+	"description": "Gatsby plugin to add Codepen link block to markdown",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jonathanharrell/gatsby-remark-jh-codepen-block.git"
+	},
+	"author": "Jonathan Harrell <harr041@gmail.com> (www.jonathan-harrell.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jonathanharrell/gatsby-remark-jh-inline-svg/issues"
+	},
+	"homepage": "https://github.com/jonathanharrell/gatsby-remark-jh-inline-svg#readme",
+	"dependencies": {
+		"unist-util-visit": "^2.0.2"
+	},
+	"devDependencies": {
+		"isomorphic-fetch": "^2.2.1"
+	}
+}

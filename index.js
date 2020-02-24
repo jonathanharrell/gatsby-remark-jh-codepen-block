@@ -3,7 +3,7 @@ const fetch = require('isomorphic-fetch')
 
 const fetchCodepen = async(id) => {
 	try {
-		const response = await fetch(`https://cors-anywhere.herokuapp.com/https://codepen.io/api/oembed?format=json&url=https://codepen.io/jonathanharrell/pen/${id}`)
+		const response = await fetch(`https://codepen.io/api/oembed?format=json&url=https://codepen.io/jonathanharrell/pen/${id}`)
 		return await response.json();
 	} catch(error) {
 		console.error(error)

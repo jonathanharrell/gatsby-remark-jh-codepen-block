@@ -17,6 +17,6 @@
 		"unist-util-visit": "^2.0.2"
 	},
 	"devDependencies": {
-		"isomorphic-fetch": "^2.2.1"
+		"isomorphic-fetch": "^3.0.0"
 	}
 }
